@@ -35,3 +35,18 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+## Directory-based project format
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/tasks.xml
+# and these sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+
+## File-based project format
+*.ipr
+*.iml
+*.iws
